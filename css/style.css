@@ -9,10 +9,10 @@ src: local('Mission Script'), url('Mission-Script.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Babel Sans';
+	font-family:Forque;
 	font-style: normal;
-	font-weight:bold;
-	src: local('Babel Sans') url('babelsans.ttf') format('ttf');
+	font-weight: normal;
+	src: local("Forque"), url('Forque.ttf') format('ttf');
 }
 
 body {
@@ -51,7 +51,7 @@ h1 {
 
 p {
     margin: 0 0 20px;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 1.6em;
 }
 
@@ -109,8 +109,7 @@ hr {
 
 
 .section-heading h2 {
-	font-size: 40px;
-	font-family: Babel Sans;
+	font-size: 45px;
 }
 .section-heading i {
 	margin-bottom: 20px;
