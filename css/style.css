@@ -34,12 +34,11 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 30px;
+    margin: 0 0 10px;
     text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
-
 }
 
 h1 {
@@ -57,6 +56,10 @@ p {
 
 p.description {
 	font-size: 14px;
+}
+
+#ishDescription {
+	margin: 0 0 34px;
 }
 
 p.lead {
@@ -494,7 +497,7 @@ input.gn-search:focus {
 	line-height: 1.1em;
 	margin-bottom: 20px;
 	font-size: 110px;
-	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 .intro .slogan p {
 	color: #fff;
