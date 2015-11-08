@@ -50,9 +50,13 @@ h1 {
 }
 
 p {
-    margin: 0 0 20px;
+    margin: 0 0 5px;
     font-size: 19px;
     line-height: 1.6em;
+}
+
+p.description {
+	font-size: 14px;
 }
 
 p.lead {
@@ -157,7 +161,7 @@ hr {
 		color: #eb5d1e;
 		list-style: none;
 		text-transform: none;
-		font-weight: 300;
+		font-weight: 400;
 		font-family: 'Lato', Arial, sans-serif;
 		line-height: 60px;
 		z-index:150;
@@ -371,7 +375,7 @@ input.gn-search:focus {
 }
 
 .gn-icon-search::before {
-		content: "\e005"
+		content: "\e005";
 }
 
 .gn-icon-download::before {
@@ -442,7 +446,7 @@ input.gn-search:focus {
 }
 
 .gn-menu-wrapper.gn-open-all {
-		width: 340px
+		width: 250px;
 }
 
 .gn-menu-wrapper.gn-open-all .gn-submenu li {
